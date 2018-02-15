@@ -6,45 +6,45 @@ using System.Threading.Tasks;
 
 namespace ListApp
 {
-    class Element
+    class Element<T>
     {
-        public int Info { get; set; }
-        public Element Next { get; set; }
+        public T Info { get; set; }
+        public Element<T> Next { get; set; }
     }
 
-    class List
+    class List<T>
     {
-        public Element First { get; set; }
+        public Element<T> First { get; set; }
 
-        public void AddFirst(int x)
+        public void AddFirst(T x)
         {
-            Element elem = new Element();
+            Element<T> elem = new Element<T>();
             elem.Info = x;
             elem.Next = First;
 
             First = elem;
         }
 
-        public void AddLast(int x)
+        public void AddLast(T x)
         {
             if(First==null)
             {
-                First = new Element() { Info = x };
+                First = new Element<T>() { Info = x };
             }
             else
             {
-               Element last = First;
+               Element<T> last = First;
                while (last.Next != null)
                     last = last.Next;
 
-                last.Next = new Element() { Info = x };
+                last.Next = new Element<T>() { Info = x };
             }
         }
 
 
         public void ShowList()
         {
-            Element elem = First;
+            Element<T> elem = First;
             while(elem != null)
             {
                 Console.Write($"{elem.Info}->");
@@ -60,7 +60,7 @@ namespace ListApp
     {
         static void Main(string[] args)
         {
-            List lst = new List();
+            List<int> lst = new List<int>();
 
             for(int i=10;i>0;i--)
             {
