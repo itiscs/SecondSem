@@ -41,6 +41,11 @@ namespace ListApp
             }
         }
 
+        public void Merge(List<T> ls)
+        {
+
+        }
+
 
         public void ShowList()
         {
@@ -60,14 +65,38 @@ namespace ListApp
     {
         static void Main(string[] args)
         {
-            List<int> lst = new List<int>();
+            List<int> lst1 = new List<int>(), lst2 = new List<int>(), lst3 = new List<int>();
 
-            for(int i=10;i>0;i--)
+            for(int i=0;i<10;i++)
             {
-                lst.AddLast(i);
+                lst1.AddLast(2 * i + 1);
+                lst2.AddLast(3 * i);
+            }
+            
+            lst1.ShowList();
+            lst2.ShowList();
+
+            Element<int> l1 = lst1.First, l2=lst2.First;
+
+            while(l1!=null && l2!=null)
+            {
+                if(l1.Info < l2.Info)
+                {
+                    lst3.AddLast(l1.Info);
+                    l1 = l1.Next;
+                }
+                else
+                {
+                    lst3.AddLast(l2.Info);
+                    l2 = l2.Next;
+                }
             }
 
-            lst.ShowList();
+
+            lst3.ShowList();
+
+
+
         }
     }
 }
