@@ -56,8 +56,7 @@ namespace Queue
         {
             List<int> l = new List<int>();
            
-
-
+            
             Queue<int> q = new Queue<int>();
             q.Push(1);
             q.Push(2);

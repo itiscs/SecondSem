@@ -19,6 +19,7 @@ namespace Tree
 
         private void ShowElem(Elem<T> t)
         {
+            if (t == null) return;
             if (t.Left == t.Right)
                 Console.Write(t.Info);
             else
@@ -34,6 +35,13 @@ namespace Tree
         public void ShowTree()
         {
             ShowElem(Root);
+        }
+
+
+
+        public static Tree<T> CreateTree(string str)
+        {
+            return null;
         }
         
     }
@@ -51,6 +59,7 @@ namespace Tree
 
         private void ShowElem(Elem t)
         {
+            if (t == null) return;
             if (t.Left == t.Right)
                 Console.Write(t.Info);
             else
@@ -81,9 +90,7 @@ namespace Tree
         {
             return SumElem(Root);
         }
-
-
-
+        
     }
 
 
@@ -103,7 +110,7 @@ namespace Tree
                     Right = new Elem<int>() { Info = 5}
                 },
                 Right = new Elem<int>() { Info = 3,
-                    Left  = new Elem<int>() { Info = 6 },
+                    //Left  = new Elem<int>() { Info = 6 },
                     Right = new Elem<int>() { Info = 7,
                         Left  = new Elem<int>() { Info = 8 },
                         Right = new Elem<int>() { Info = 9 }

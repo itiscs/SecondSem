@@ -1,0 +1,7 @@
+C:\Users\moudr_000\Source\Repos\SecondSem\YieldApp\YieldApp\obj\Debug\YieldApp.csprojResolveAssemblyReference.cache
+C:\Users\moudr_000\Source\Repos\SecondSem\YieldApp\YieldApp\obj\Debug\YieldApp.csproj.CoreCompileInputs.cache
+C:\Users\moudr_000\Source\Repos\SecondSem\YieldApp\YieldApp\bin\Debug\YieldApp.exe.config
+C:\Users\moudr_000\Source\Repos\SecondSem\YieldApp\YieldApp\bin\Debug\YieldApp.exe
+C:\Users\moudr_000\Source\Repos\SecondSem\YieldApp\YieldApp\bin\Debug\YieldApp.pdb
+C:\Users\moudr_000\Source\Repos\SecondSem\YieldApp\YieldApp\obj\Debug\YieldApp.exe
+C:\Users\moudr_000\Source\Repos\SecondSem\YieldApp\YieldApp\obj\Debug\YieldApp.pdb
