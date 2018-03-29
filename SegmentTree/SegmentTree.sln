@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SegmentTree", "SegmentTree\SegmentTree.csproj", "{42A3256B-1FC0-48CF-B9DA-13C5C87466E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42A3256B-1FC0-48CF-B9DA-13C5C87466E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A3256B-1FC0-48CF-B9DA-13C5C87466E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42A3256B-1FC0-48CF-B9DA-13C5C87466E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42A3256B-1FC0-48CF-B9DA-13C5C87466E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6783331-8BC7-4E56-A1F9-79962A813BA4}
+	EndGlobalSection
+EndGlobal
