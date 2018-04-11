@@ -84,7 +84,7 @@ namespace SegmentTree
                 x[i] = i;
 
             SegmentTree t = new SegmentTree();
-            t.CreateTree(x, (a,b) => a+b);
+            t.CreateTree(x, (a,b) => a>b?a:b);
             t.ShowTree();
 
         }
